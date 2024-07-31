@@ -1,0 +1,4 @@
+0 can
+1 glass
+2 paper
+3 plastic

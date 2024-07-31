@@ -1,0 +1,96 @@
+name: graduation_project
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0-91.0.dev <4.0.0"
+
+dependencies:
+  animated_splash_screen: ^1.2.0
+  animation_wrappers: ^3.0.0
+  animations: ^2.0.11
+  bloc: ^8.1.4
+  cached_network_image: ^3.3.1
+  camera: ^0.10.5+9
+  cloud_firestore: ^5.0.2
+  collection: ^1.18.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dash_chat_2: ^0.0.20
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
+  firebase_analytics: ^11.1.0
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.2
+  firebase_storage: ^12.1.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  flutter_barcode_scanner: ^2.0.0
+  flutter_bloc: ^8.1.4
+  flutter_flavorizr: ^2.1.5
+  flutter_gemini: ^2.0.4
+  flutter_inappwebview: ^6.0.0
+  flutter_polyline_points: ^2.0.0
+  flutter_svg: ^2.0.9
+  fluttertoast: ^8.2.5
+  get: ^4.6.6
+  get_it: ^7.2.0
+  get_storage: ^2.1.1
+  gif: ^2.3.0
+  google_maps_flutter: ^2.6.1
+  google_nav_bar: ^5.0.6
+  gradient_borders: ^1.0.0
+  http: ^1.2.1
+  http_parser: ^4.0.0
+  image: ^3.3.0
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  location: ^5.0.0
+  lottie: ^3.1.0
+  meta: ^1.11.0
+  mime: ^1.0.5
+  mobile_scanner: ^5.1.1
+  modal_progress_hud_nsn: ^0.5.1
+  permission_handler: ^11.3.1
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  shared_preferences: ^2.2.3
+  smooth_page_indicator: ^1.1.0
+  tflite_v2: ^1.0.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.2.16
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  image_path: assets/images/Picture1.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/onboarding/
+    - assets/icons/
+    - assets/svg/
+    - assets/realtime_object_detection/
+    - assets/lottie/
+    - assets/images/chatbot.png
+    - assets/lottie/rate.gif
+    - assets/images/avatar.jpeg
+
+  fonts:
+    - family: Irish Grover
+      fonts:
+        - asset: assets/fonts/IrishGrover-Regular.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-VariableFont_wght.ttf
